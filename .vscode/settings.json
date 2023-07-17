@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ucl_asm.h": "c",
+        "ucl.h": "c"
+    }
+}

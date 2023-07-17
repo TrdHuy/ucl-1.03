@@ -59,7 +59,7 @@
 #if defined(WITH_TIMER)
 #define WANT_UCL_UCLOCK 1
 #endif
-#define WANT_UCL_WILDARGV 1
+//#define WANT_UCL_WILDARGV 1
 #include "examples/portab.h"
 
 
@@ -651,7 +651,7 @@ int __acc_cdecl_main main(int argc, char *argv[])
     unsigned long opt_decompress_loops = 0;
     const char *s;
 
-    ucl_wildargv(&argc, &argv);
+    //ucl_wildargv(&argc, &argv);
 #if defined(WITH_TIMER)
     ucl_uclock_open(&uc);
 #endif
